@@ -1,0 +1,54 @@
+/* =========== css table of contents =========
+
+ * theme name: podcastio
+ * version: 1.0
+ * description: Podcastio - Audio podcast Bootstrap HTML Template
+ * author: Pixelaxis
+ * author-url: https://themeforest.net/user/pixelaxis
+
+        # Plugin
+     --> tabler icons
+     --> Swiper js 
+     --> magnific-popup
+     --> AOS
+     --> odometer
+     --> select2
+
+        # Components
+     --> mixins
+     --> variables
+     --> typography
+     --> buttons
+     --> animation
+     --> audio player
+
+        # Base
+     --> navbar
+     --> global
+     --> section
+     --> footer
+     --> preloader
+    ================================== */
+
+/* ============= plugin styles ============== */
+@import "../webfont/tabler-icons.css";
+@import "../css/swiper-bundle.min.css";
+@import "../css/magnific-popup.js_1.1.0.min.css";
+@import "../css/aos@2.3.1-dist-aos.css";
+@import "../css/odometer.js_0.4.7_themes_odometer-theme-minimal.css";
+@import "../css/select2.min.css";
+
+/* ============= components styles ============== */
+@import "./components/mixins";
+@import "./components/variable";
+@import "./components/typography";
+@import "./components/buttons";
+@import "./components/animation";
+@import "./components/audio-player.scss";
+
+/* ============= base styles ============== */
+@import "./base/navbar";
+@import "./base/global";
+@import "./base/section";
+@import "./base/footer";
+@import "./components/preloader";

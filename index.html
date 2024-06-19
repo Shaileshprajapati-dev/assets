@@ -1,0 +1,1728 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore a world of podcasts on Podcastio. Listen to engaging discussions, interviews, and more.">
+    <meta name="author" content="pixelaxis">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="podcast, audio, interviews, discussions, entertainment,ashadul">
+    <title>Home | Podcastio</title>
+    <link rel="shortcut icon" href="assets/img/fabicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- preloader  -->
+    <div class="preloader">
+        <div class="loader-inner">
+            <div class="plate">
+                <div class="base">
+                    <div class="circle">
+                        <div class="disc">
+                            <div class="center"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="player-bar">
+                <div class="rect"></div>
+                <div class="circ"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bottom to top button -->
+    <div class="bottom-to-top position-fixed bottom-0 end-0 mb-4 me-4 fs-xl cursor-pointer">
+        <i class="ti ti-arrow-up"></i>
+    </div>
+
+    <!-- header section start  -->
+    <header class="header-section position-fixed top-0 start-50 translate-middle-x w-100 py-4">
+        <div class="container-fluid">
+            <nav class="nav-wrapper d-between">
+                <!-- site title and logo  -->
+                <div class="logo">
+                    <a href="index.html">
+                
+                        <img src="assets/img/top_logo_bodkas_fond_noir-removebg-preview.png" alt="" style="height: 120px; width: 200px;">
+                    </a>
+                </div>
+                <!-- category menu, navbar menu and search area -->
+                <div
+                    class="menu-toggler d-flex align-items-center justify-content-lg-between flex-lg-row flex-column gap-xxl-6 gap-4 w-100">
+                    <div class="category-nav-menu d-between flex-lg-row flex-column w-100">
+                        <!-- category menu  -->
+                        <div class="category-menu w-100">
+                            <button class="category-toggle-btn"> <i class="ti ti-category"></i> category </button>
+                            <div class="category-list-area">
+                                <div class="category-wrapper">
+                                    <ul
+                                        class="category-list-items d-flex flex-wrap align-items-baseline mb-xxl-15 mb-4">
+                                        <li class="category-item">
+                                            <a href="#"
+                                                class="category-link p-xxl-8 p-sm-4 p-2 d-flex flex-column gap-0 rounded-3">
+                                                <img class="category-thumb mb-xxl-8 mb-lg-6 mb-4 rounded-3"
+                                                    src="assets/img/category-1.png" alt="life story">
+                                                <span class="category-title fs-three mb-xxl-6 mb-lg-4 mb-2">Life
+                                                    Story</span>
+                                                <p class="tcn-40 char-limit" data-maxlength="60">
+                                                    Embark on a journey through the lives of inspiring individuals.
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <li class="category-item">
+                                            <a href="#"
+                                                class="category-link p-xxl-8 p-sm-4 p-2 d-flex flex-column gap-0 rounded-3">
+                                                <img class="category-thumb mb-xxl-8 mb-lg-6 mb-4 rounded-3"
+                                                    src="assets/img/category-2.png" alt="Horror Story">
+                                                <span class="category-title fs-three mb-xxl-6 mb-lg-4 mb-2">Horror
+                                                    Story</span>
+                                                <p class="tcn-40 char-limit" data-maxlength="60">
+                                                    Brace yourself for spine-chilling narratives that will send shivers
+                                                    down
+                                                    your spine.
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <li class="category-item">
+                                            <a href="#"
+                                                class="category-link p-xxl-8 p-sm-4 p-2 d-flex flex-column gap-0 rounded-3">
+                                                <img class="category-thumb mb-xxl-8 mb-lg-6 mb-4 rounded-3"
+                                                    src="assets/img/category-3.png" alt="Music Special">
+                                                <span class="category-title fs-three mb-xxl-6 mb-lg-4 mb-2">Music
+                                                    Special</span>
+                                                <p class="tcn-40 char-limit" data-maxlength="60">
+                                                    Dive into the world of melodies with our musical specials.
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <li class="category-item">
+                                            <a href="#"
+                                                class="category-link p-xxl-8 p-sm-4 p-2 d-flex flex-column gap-0 rounded-3">
+                                                <img class="category-thumb mb-xxl-8 mb-lg-6 mb-4 rounded-3"
+                                                    src="assets/img/category-4.png" alt="Doctor's Corner">
+                                                <span class="category-title fs-three mb-xxl-6 mb-lg-4 mb-2">Doctor's
+                                                    Corner</span>
+                                                <p class="tcn-40 char-limit" data-maxlength="60">
+                                                    Join us in the Doctor's Corner for expert advice on health and
+                                                    wellness.
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <li class="category-item">
+                                            <a href="#"
+                                                class="category-link p-xxl-8 p-sm-4 p-2 d-flex flex-column gap-0 rounded-3">
+                                                <img class="category-thumb mb-xxl-8 mb-lg-6 mb-4 rounded-3"
+                                                    src="assets/img/category-1.png" alt="Education Quiz">
+                                                <span class="category-title fs-three mb-xxl-6 mb-lg-4 mb-2">Education
+                                                    Quiz</span>
+                                                <p class="tcn-40 char-limit" data-maxlength="60">
+                                                    Challenge your mind with our education quiz series.
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <div
+                                        class="category-list-bottom border-dashed pt-xxl-8 pt-lg-6 pt-sm-4 pt-2 d-between gap-3 flex-wrap">
+                                        <ul
+                                            class="category-bottom-links d-flex align-items-center gap-lg-6 gap-sm-4 gap-3 flex-wrap">
+                                            <li class="category-bottom-link">
+                                                <a href="../blog-list.html">Featured Shows</a>
+                                            </li>
+                                            <li class="category-bottom-link">
+                                                <a href="../latest-episodes.html">Recent Episode</a>
+                                            </li>
+                                            <li class="category-bottom-link">
+                                                <a href="../host-profile.html">Host Profile</a>
+                                            </li>
+                                        </ul>
+
+                                        <a href="#" class="bttn-1">
+                                            See All Category
+                                            <span class=" icon d-center icon-right">
+                                                <i class="ti ti-arrow-narrow-right"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- nav menu  -->
+                        <div class="navbar-toggle-item w-100">
+                            <ul class="nav-menu-items gap-3 gap-lg-8">
+                                <li >
+                                    <button>Home</button>
+                                    
+                                </li>
+
+                                <li >
+                                    <button>About Us</button>
+                                    
+                                </li>
+                                
+                                <li class="menu-item">
+                                    <button>Episode</button>
+                                    <ul class="sub-menu">
+                                        <li class="menu-link">
+                                            <a href="latest-episodes.html">Latest Episode</a>
+                                        </li>
+                                        <li class="menu-link">
+                                            <a href="favorite-episode.html">Favorite Episode</a>
+                                        </li>
+                                        <li class="menu-link">
+                                            <a href="episodes-details.html">Episode Details</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li >
+                                    <button>Blog</button>
+                                    
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- search and wishlist  -->
+                    <div
+                        class="search-and-wishlist-area order-first order-lg-1 d-flex align-items-center justify-content-lg-end gap-xxl-6 gap-xl-4 gap-2 w-100">
+                        <form action="#" class="w-100 search-box">
+                            <div class="input-area border bc-n400">
+                                <input type="text" placeholder="Search Episode.....">
+                                <button type="submit" class="icon-btn">
+                                    <span class="icon alt-size fs-xl fw-bold">
+                                        <i class="ti ti-search"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </form>
+                        <button class="icon-btn search-toggle-btn">
+                            <span class="icon fs-xl fw-bold">
+                                <i class="ti ti-search"></i>
+                            </span>
+                        </button>
+                        <!-- wishlist  -->
+                        <a href="favorite-episode.html" class="wishlist">
+                            <span>
+                                <i class="ti ti-heart"></i>
+                            </span>
+                            <div class="baddge">
+                                <span class="tcn-900">2</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- auth button  -->
+                    <div
+                        class="auth-btn order-last d-flex align-items-center flex-column flex-sm-row gap-xxl-6 gap-lg-4 gap-2 w-100">
+                        <a href="sign-in.html" class="bttn-1 gap-lg-4 gap-2 bttn-outline alt-position text-nowrap">
+                            Sign In
+                            <span class="icon icon-right">
+                                <i class="ti ti-arrow-narrow-right"></i>
+                            </span>
+                        </a>
+                        <a href="sign-up.html" class="bttn-1 gap-lg-4 gap-2 text-nowrap">
+                            Register
+                            <span class="icon icon-right">
+                                <i class="ti ti-arrow-narrow-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- menu toggler  -->
+                <button class="navbar-toggle-btn d-block d-lg-none" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </nav>
+        </div>
+    </header>
+    <!-- header section end  -->
+
+    <!-- ///////// home 01 ///////////// -->
+
+    <!-- hero section start  -->
+    <section class="hero-section texture-bg pt-120">
+        <div class="vector-line position-absolute top-50 start-50 translate-middle w-100 h-100 z-n1 mt-20">
+            <img class="w-100" src="assets/img/vector-line.png" alt="line">
+        </div>
+        <div class="sun-shape sun-shape-1 d-none d-md-block">
+            <img src="assets/img/sun.png" alt="sun">
+        </div>
+        <div class="sun-shape sun-shape-2 d-none d-md-block">
+            <img src="assets/img/sun.png" alt="sun">
+        </div>
+        <div class="sun-shape sun-shape-3 d-none d-md-block">
+            <img src="assets/img/sun.png" alt="sun">
+        </div>
+        <div class="container">
+            <div class="row g-6">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <div class="hero-content pb-xl-17 pb-12">
+                        <div class="img-area mb-4">
+                            <img class="w-100" src="assets/img/racode-track.png" alt="image">
+                        </div>
+                        <h2 class="hero-title display-two mb-6">
+                            Explore
+                            <span class="tcp-1">Sound</span> Storytelling Magic.
+                        </h2>
+                        <p class="fs-xl fw-normal me-xl-20 pe-xxl-5">
+                            Discover the harmony of heartfelt conversations. Bringing clarity to life's complexities.
+                            Focus on what matters most
+                        </p>
+                        <div
+                            class="hero-btn-area d-flex align-items-center justify-content-center justify-content-lg-start flex-wrap gap-sm-6 gap-3 mt-lg-10 mt-sm-8 mt-6 mb-xl-17 mb-lg-12 mb-10">
+                            <a href="latest-episodes.html" class="bttn-1">
+                                Latest Episode
+                                <span class=" icon d-center icon-right">
+                                    <i class="ti ti-arrow-narrow-right"></i>
+                                </span>
+                            </a>
+                            <a href="#newsletter" class="bttn-1 bttn-outline alt-position">
+                                Subscribe
+                                <span class=" icon d-center icon-right">
+                                    <i class="ti ti-arrow-narrow-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="listen-to-btns">
+                            <p class="fs-lg mb-6 fw-medium">Listen to Podcaster through :</p>
+                            <ul
+                                class="d-flex align-items-center justify-content-center justify-content-lg-start gap-sm-4 gap-2">
+                                <li class="brand-icon"><a href="#">
+                                        <img class="w-100" src="assets/img/podcast-icon-1.png" alt="brand icon">
+                                    </a></li>
+                                <li class="brand-icon"><a href="#">
+                                        <img class="w-100" src="assets/img/podcast-icon-2.png" alt="brand icon">
+                                    </a></li>
+                                <li class="brand-icon"><a href="#">
+                                        <img class="w-100" src="assets/img/podcast-icon-3.png" alt="brand icon">
+                                    </a></li>
+                                <li class="brand-icon"><a href="#">
+                                        <img class="w-100" src="assets/img/podcast-icon-4.png" alt="brand icon">
+                                    </a></li>
+                                <li class="brand-icon"><a href="#">
+                                        <img class="w-100" src="assets/img/podcast-icon-5.png" alt="brand icon">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="hero-banner ps-xxl-16" data-aos="zoom-in">
+                        <div class="circle-text-area rounded-circle d-center">
+                            <div class="circle-text">
+                                <p class="tcn-700"> Take your podcast to the next level.</p>
+                            </div>
+                            <a href="#" class="circle-btn position-absolute z-2 tcn-900 fs-three fw-light">
+                                <i class="ti ti-arrow-up-right "></i>
+                            </a>
+                        </div>
+                        <div class="banner-items d-center gap-lg-10 gap-sm-8 gap-6">
+                            <div class="d-grid gap-lg-16 gap-sm-10 gap-6 banner-left-items pb-6">
+                                <div class="img-area banner-item-1">
+                                    <img class="w-100" src="assets/img/banner-img-1.png" alt="banner">
+                                </div>
+                                <div class="img-area banner-item-3">
+                                    <img class="w-100" src="assets/img/banner-img-3.png" alt="banner">
+                                </div>
+                            </div>
+                            <div class="d-grid gap-lg-13 gap-sm-8 gap-5">
+                                <div class="img-area banner-item-2">
+                                    <img class="w-100" src="assets/img/banner-img-2.png" alt="banner">
+                                </div>
+                                <div class="img-area banner-item-4">
+                                    <img class="w-100" src="assets/img/banner-img-4.png" alt="banner">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section end  -->
+
+  
+
+
+    <!-- Top Listen Live section start -->
+    <section class="top-listen_live texture-bg-2 bg-white">
+        <div class="container mb-lg-15 mb-sm-10 mb-8">
+            <div class="row align-items-center g-4" data-aos="flip-left">
+                <div class="text-center text-lg-start">
+                    <span class="subheading-border fw-semibold mb-4 fs-xl mt-10">
+                        <span class="fs-2xl">
+                            <i class="ti ti-rocket"></i>
+                        </span>
+                        Featured Shows
+                    </span>
+                    <span class="display-four text-dark pt-10 pb-10">Listen Live</span>
+                   
+                        <div class="wrapper">
+                            <i id="left" class="fa-solid fa-angle-left"></i>
+                            <ul class="carousel">
+                                <li class="card" style="border: none;">
+                                    <h6>radio 1</h6>
+                                    <p>The biggest new pop & all day vibes.</p>
+                                    <div class="img_outer">
+                                    <div class="img"><img src="https://t4.ftcdn.net/jpg/03/50/40/93/240_F_350409330_2bqhjowfBmrqEia5U8lBsGrvD7h8EIo6.jpg" alt="img" draggable="false"></div>
+                                   </div>
+                                    <p style="color: black;"><strong>LIVE</strong> 15:32-17:45</p>
+                                    <h6 class="pt-1">Going Home with Vick Katie and Jamie</h6>
+                                    <p>Can You compalate the hardest quiz on the radio</p>
+                                </li>
+                                <li class="card" style="border: none;">
+                                    <h6>radio 1</h6>
+                                    <p>The biggest new pop & all day vibes.</p>
+                                    <div class="img_outer">
+                                    <div class="img"><img src="https://t3.ftcdn.net/jpg/00/57/55/40/240_F_57554079_g3LhdDR5C0f2mc2ZxjFgsbb6WMqouUwQ.jpg" alt="img" draggable="false"></div>
+                                   </div>
+                                   <p style="color: black;"><strong>LIVE</strong> 15:32-17:45</p>
+                                    <h6>Going Home with Vick Katie and Jamie</h6>
+                                    <p>Can You compalate the hardest quiz on the radio</p>
+                                </li>
+                                <li class="card" style="border: none;">
+                                    <h6>radio 1</h6>
+                                    <p>The biggest new pop & all day vibes.</p>
+                                    <div class="img_outer">
+                                    <div class="img"><img src="https://t3.ftcdn.net/jpg/06/15/91/36/240_F_615913669_1GvdMMT0H44Z4owh9SCYsml6mCcy8g3G.jpg" alt="img" draggable="false"></div>
+                                   
+                                   </div> 
+                                   <p style="color: black;"><strong>LIVE</strong> 15:32-17:45</p>
+                                   <h6>Going Home with Vick Katie and Jamie</h6>
+                                    <p>Can You compalate the hardest quiz on the radio</p>
+                                </li>
+                                <li class="card" style="border: none;">
+                                    <h6>radio 1</h6>
+                                    <p>The biggest new pop & all day vibes.</p>
+                                    <div class="img_outer">
+                                    <div class="img"><img src="https://t3.ftcdn.net/jpg/02/60/67/80/240_F_260678009_gV1PBTotxDIwTngnmn3nYqWshbznYf24.jpg" alt="img" draggable="false"></div>
+                                    </div>
+                                    <p style="color: black;"><strong>LIVE</strong> 15:32-17:45</p>
+                                    <h6>Going Home with Vick Katie and Jamie</h6>
+                                    <p>Can You compalate the hardest quiz on the radio</p>
+                                </li>
+                                <li class="card" style="border: none;">
+                                    <h6>radio 1</h6>
+                                    <p>The biggest new pop & all day vibes.</p>
+                                    <div class="img_outer">
+                                    <div class="img"><img src="https://t3.ftcdn.net/jpg/03/99/91/62/240_F_399916297_1JwXdmC6ViCG4YhZuhLVz7xfuZhfHCY9.jpg" alt="img" draggable="false"></div>
+                                    </div>
+                                    <p style="color: black;"><strong>LIVE</strong> 15:32-17:45</p>
+                                    <h6>Going Home with Vick Katie and Jamie</h6>
+                                    <p>Can You compalate the hardest quiz on the radio</p>
+                                </li>
+                    
+                                <li class="card" style="border: none;">
+                                    <h6>radio 1</h6>
+                                    <p>The biggest new pop & all day vibes.</p>
+                                    <div class="img_outer">
+                                    <div class="img"><img src="https://t4.ftcdn.net/jpg/06/81/01/43/240_F_681014359_dyMjwn4JYLtY985umiBOeytmLmVxEjC0.jpg" alt="img" draggable="false"></div>
+                                    </div>
+                                    <p style="color: black;"><strong>LIVE</strong> 15:32-17:45</p>
+                                    <h6>Going Home with Vick Katie and Jamie</h6>
+                                    <p>Can You compalate the hardest quiz on the radio</p>
+                                </li>
+                            </ul>
+                            <i id="right" class="fa-solid fa-angle-right"></i>
+                        </div>
+                  
+                </div>
+             
+    </section>
+    <!-- Top Listen Live section end -->
+
+      <!-- Top Listens Now section start -->
+      <section class="top-listens-list pt-120 pb-120 texture-bg-2">
+        <div class="container mb-lg-15 mb-sm-10 mb-8">
+            <div class="row align-items-center g-4" data-aos="flip-left">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <span class="subheading-border fw-semibold mb-4 fs-xl">
+                        <span class="fs-2xl">
+                            <i class="ti ti-rocket"></i>
+                        </span>
+                        Featured Shows
+                    </span>
+                    <span class="display-four">E-TICKETS</span>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block">
+                    <div class="swiper-btns swiper-top-btn d-flex align-items-center justify-content-end gap-4">
+                        <div class="top-listens-prev button-prev fs-lg">
+                            <i class="ti ti-chevron-left"></i>
+                        </div>
+                        <div class="top-listens-next button-next fs-lg">
+                            <i class="ti ti-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="swiper top-listens" data-aos="fade-up">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="featured-show-card d-flex flex-column flex-sm-row gap-lg-3 p-3 rounded">
+                            <div class="img-area mx-auto">
+                                <img class="w-100 h-100 rounded" src="assets/img/shows-1.png" alt="img">
+                            </div>
+                            <div class="content-area p-3">
+                                <div class="d-between flex-wrap gap-2 mb-lg-5 mb-3">
+                                    <span class="tag-btn">
+                                        Episode 45
+                                    </span>
+                                    <a href="host-details.html" class="episode-host d-flex align-items-center gap-2">
+                                        <span class="tcp-1 fs-lg">
+                                            <i class="ti ti-microphone"></i>
+                                        </span>
+                                        <span class="fs-lg fw-medium link-text tcn-20">
+                                            Mr Jones Weks
+                                        </span>
+                                    </a>
+                                </div>
+                                <h3 class="card-title mb-6 fw-semibold">
+                                    Tech Trends Unveiled: Future Horizons
+                                </h3>
+                                <div class="play-podcast-area mb-lg-8 mb-4">
+                                    <div class="audio-player" data-audio-index="0">
+                                        <!-- player controls btn  -->
+                                        <div class="play-audio">
+                                            <div class="toggle-play play fs-xl tcn-900">
+                                                <i class="ti ti-player-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="controls">
+                                            <!-- timeline  -->
+                                            <div class="timeline mb-2">
+                                                <div class="progress"></div>
+                                            </div>
+                                            <!-- time and volume  -->
+                                            <div class="time-and-volume">
+                                                <!-- time  -->
+                                                <div class="time">
+                                                    <div class="current fs-sm">0:00</div>
+                                                    <div class="length fs-sm"></div>
+                                                </div>
+                                                <!-- volume -->
+                                                <div class="volume-container">
+                                                    <div class="volume-button">
+                                                        <i class="ti ti-volume"></i>
+                                                    </div>
+                                                    <div class="volume-slider">
+                                                        <div class="volume-percentage"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3 ">
+                                    <a href="#" class="link-btn">Listen Now</a>
+
+
+                                    <a style="margin-left: 100px; margin-top: -25px;" href="https://www.youtube.com/watch?v=w7j_K_hE5kU"
+                                class="icon-btn d-center gap-3 popupvideo mfp-iframe">
+                               
+                                <span class="text fw-semibold">
+                                    Watch Video
+                                </span>
+                            </a>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="featured-show-card d-flex flex-column flex-sm-row gap-lg-3 p-3 rounded">
+                            <div class="img-area mx-auto">
+                                <img class="w-100 h-100 rounded" src="assets/img/shows-2.png" alt="img">
+                            </div>
+                            <div class="content-area p-3">
+                                <div class="d-between flex-wrap gap-2 mb-lg-5 mb-3">
+                                    <span class="tag-btn">
+                                        Episode 09
+                                    </span>
+                                    <a href="host-details.html" class="episode-host d-flex align-items-center gap-2">
+                                        <span class="tcp-1 fs-lg">
+                                            <i class="ti ti-microphone"></i>
+                                        </span>
+                                        <span class="fs-lg fw-medium link-text tcn-20">
+                                            Mr Jones Weks
+                                        </span>
+                                    </a>
+                                </div>
+                                <h3 class="card-title mb-6 fw-semibold">
+                                    Laughing Through Life's Labyrinth Tech
+                                </h3>
+                                <div class="play-podcast-area mb-lg-8 mb-4">
+                                    <div class="audio-player">
+                                        <!-- player controls btn  -->
+                                        <div class="play-audio">
+                                            <div class="toggle-play play fs-xl tcn-900">
+                                                <i class="ti ti-player-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="controls">
+                                            <!-- timeline  -->
+                                            <div class="timeline mb-2">
+                                                <div class="progress"></div>
+                                            </div>
+                                            <!-- time and volume  -->
+                                            <div class="time-and-volume">
+                                                <!-- time  -->
+                                                <div class="time">
+                                                    <div class="current fs-sm">0:00</div>
+                                                    <div class="length fs-sm"></div>
+                                                </div>
+                                                <!-- volume -->
+                                                <div class="volume-container">
+                                                    <div class="volume-button">
+                                                        <i class="ti ti-volume"></i>
+                                                    </div>
+                                                    <div class="volume-slider">
+                                                        <div class="volume-percentage"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <a href="#" class="link-btn">Listen Now</a>
+
+
+                                    <a style="margin-left: 100px; margin-top: -25px;" href="https://www.youtube.com/watch?v=w7j_K_hE5kU"
+                                class="icon-btn d-center gap-3 popupvideo mfp-iframe">
+                               
+                                <span class="text fw-semibold">
+                                    Watch Video
+                                </span>
+                            </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="featured-show-card d-flex flex-column flex-sm-row gap-lg-3 p-3 rounded">
+                            <div class="img-area mx-auto">
+                                <img class="w-100 h-100 rounded" src="assets/img/shows-1.png" alt="">
+                            </div>
+                            <div class="content-area p-3">
+                                <div class="d-between flex-wrap gap-2 mb-lg-5 mb-3">
+                                    <span class="tag-btn">
+                                        Episode 09
+                                    </span>
+                                    <a href="host-details.html" class="episode-host d-flex align-items-center gap-2">
+                                        <span class="tcp-1 fs-lg">
+                                            <i class="ti ti-microphone"></i>
+                                        </span>
+                                        <span class="fs-lg fw-medium link-text tcn-20">
+                                            Mr Jones Weks
+                                        </span>
+                                    </a>
+                                </div>
+                                <h3 class="card-title mb-6 fw-semibold">
+                                    Tech Trends Unveiled: Future Horizons
+                                </h3>
+                                <div class="play-podcast-area mb-lg-8 mb-4">
+                                    <div class="audio-player">
+                                        <!-- player controls btn  -->
+                                        <div class="play-audio">
+                                            <div class="toggle-play play fs-xl tcn-900">
+                                                <i class="ti ti-player-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="controls">
+                                            <!-- timeline  -->
+                                            <div class="timeline mb-2">
+                                                <div class="progress"></div>
+                                            </div>
+                                            <!-- time and volume  -->
+                                            <div class="time-and-volume">
+                                                <!-- time  -->
+                                                <div class="time">
+                                                    <div class="current fs-sm">0:00</div>
+                                                    <div class="length fs-sm"></div>
+                                                </div>
+                                                <!-- volume -->
+                                                <div class="volume-container">
+                                                    <div class="volume-button">
+                                                        <i class="ti ti-volume"></i>
+                                                    </div>
+                                                    <div class="volume-slider">
+                                                        <div class="volume-percentage"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <a href="#" class="link-btn">Listen Now</a>
+
+
+                                    <a style="margin-left: 100px; margin-top: -25px;" href="https://www.youtube.com/watch?v=w7j_K_hE5kU"
+                                class="icon-btn d-center gap-3 popupvideo mfp-iframe">
+                               
+                                <span class="text fw-semibold">
+                                    Watch Video
+                                </span>
+                            </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="featured-show-card d-flex flex-column flex-sm-row gap-lg-3 p-3 rounded">
+                            <div class="img-area mx-auto">
+                                <img class="w-100 h-100 rounded" src="assets/img/shows-3.png" alt="img">
+                            </div>
+                            <div class="content-area p-3">
+                                <div class="d-between flex-wrap gap-2 mb-lg-5 mb-3">
+                                    <span class="tag-btn">
+                                        Episode 09
+                                    </span>
+                                    <a href="host-details.html" class="episode-host d-flex align-items-center gap-2">
+                                        <span class="tcp-1 fs-lg">
+                                            <i class="ti ti-microphone"></i>
+                                        </span>
+                                        <span class="fs-lg fw-medium link-text tcn-20">
+                                            Mr Jones Weks
+                                        </span>
+                                    </a>
+                                </div>
+                                <h3 class="card-title mb-6 fw-semibold">
+                                    Stories Resonate: The Art of Storytelling
+                                </h3>
+                                <div class="play-podcast-area mb-lg-8 mb-4">
+                                    <div class="audio-player">
+                                        <!-- player controls btn  -->
+                                        <div class="play-audio">
+                                            <div class="toggle-play play fs-xl tcn-900">
+                                                <i class="ti ti-player-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="controls">
+                                            <!-- timeline  -->
+                                            <div class="timeline mb-2">
+                                                <div class="progress"></div>
+                                            </div>
+                                            <!-- time and volume  -->
+                                            <div class="time-and-volume">
+                                                <!-- time  -->
+                                                <div class="time">
+                                                    <div class="current fs-sm">0:00</div>
+                                                    <div class="length fs-sm"></div>
+                                                </div>
+                                                <!-- volume -->
+                                                <div class="volume-container">
+                                                    <div class="volume-button">
+                                                        <i class="ti ti-volume"></i>
+                                                    </div>
+                                                    <div class="volume-slider">
+                                                        <div class="volume-percentage"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <a href="#" class="link-btn">Listen Now</a>
+
+
+                                    <a style="margin-left: 100px; margin-top: -25px;" href="https://www.youtube.com/watch?v=w7j_K_hE5kU"
+                                class="icon-btn d-center gap-3 popupvideo mfp-iframe">
+                               
+                                <span class="text fw-semibold">
+                                    Watch Video
+                                </span>
+                            </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="featured-show-card d-flex flex-column flex-sm-row gap-lg-3 p-3 rounded">
+                            <div class="img-area mx-auto">
+                                <img class="w-100 h-100 rounded" src="assets/img/shows-1.png" alt="img">
+                            </div>
+                            <div class="content-area p-3">
+                                <div class="d-between flex-wrap gap-2 mb-lg-5 mb-3">
+                                    <span class="tag-btn">
+                                        Episode 09
+                                    </span>
+                                    <a href="host-details.html" class="episode-host d-flex align-items-center gap-2">
+                                        <span class="tcp-1 fs-lg">
+                                            <i class="ti ti-microphone"></i>
+                                        </span>
+                                        <span class="fs-lg fw-medium link-text tcn-20">
+                                            Mr Jones Weks
+                                        </span>
+                                    </a>
+                                </div>
+                                <h3 class="card-title mb-6 fw-semibold">
+                                    Tech Trends Unveiled: Future Horizons
+                                </h3>
+                                <div class="play-podcast-area mb-lg-8 mb-4">
+                                    <div class="audio-player">
+                                        <!-- player controls btn  -->
+                                        <div class="play-audio">
+                                            <div class="toggle-play play fs-xl tcn-900">
+                                                <i class="ti ti-player-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="controls">
+                                            <!-- timeline  -->
+                                            <div class="timeline mb-2">
+                                                <div class="progress"></div>
+                                            </div>
+                                            <!-- time and volume  -->
+                                            <div class="time-and-volume">
+                                                <!-- time  -->
+                                                <div class="time">
+                                                    <div class="current fs-sm">0:00</div>
+                                                    <div class="length fs-sm"></div>
+                                                </div>
+                                                <!-- volume -->
+                                                <div class="volume-container">
+                                                    <div class="volume-button">
+                                                        <i class="ti ti-volume"></i>
+                                                    </div>
+                                                    <div class="volume-slider">
+                                                        <div class="volume-percentage"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <a href="#" class="link-btn">Listen Now</a>
+
+
+                                    <a style="margin-left: 100px; margin-top: -25px;" href="https://www.youtube.com/watch?v=w7j_K_hE5kU"
+                                class="icon-btn d-center gap-3 popupvideo mfp-iframe">
+                               
+                                <span class="text fw-semibold">
+                                    Watch Video
+                                </span>
+                            </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="featured-show-card d-flex flex-column flex-sm-row gap-lg-3 p-3 rounded">
+                            <div class="img-area mx-auto">
+                                <img class="w-100 h-100 rounded" src="assets/img/shows-2.png" alt="img">
+                            </div>
+                            <div class="content-area p-3">
+                                <div class="d-between flex-wrap gap-2 mb-lg-5 mb-3">
+                                    <span class="tag-btn">
+                                        Episode 09
+                                    </span>
+                                    <a href="host-details.html" class="episode-host d-flex align-items-center gap-2">
+                                        <span class="tcp-1 fs-lg">
+                                            <i class="ti ti-microphone"></i>
+                                        </span>
+                                        <span class="fs-lg fw-medium link-text tcn-20">
+                                            Mr Jones Weks
+                                        </span>
+                                    </a>
+                                </div>
+                                <h3 class="card-title mb-6 fw-semibold">
+                                    Laughing Through Life's Labyrinth Tech
+                                </h3>
+                                <div class="play-podcast-area mb-lg-8 mb-4">
+                                    <div class="audio-player">
+                                        <!-- player controls btn  -->
+                                        <div class="play-audio">
+                                            <div class="toggle-play play fs-xl tcn-900">
+                                                <i class="ti ti-player-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="controls">
+                                            <!-- timeline  -->
+                                            <div class="timeline mb-2">
+                                                <div class="progress"></div>
+                                            </div>
+                                            <!-- time and volume  -->
+                                            <div class="time-and-volume">
+                                                <!-- time  -->
+                                                <div class="time">
+                                                    <div class="current fs-sm">0:00</div>
+                                                    <div class="length fs-sm"></div>
+                                                </div>
+                                                <!-- volume -->
+                                                <div class="volume-container">
+                                                    <div class="volume-button">
+                                                        <i class="ti ti-volume"></i>
+                                                    </div>
+                                                    <div class="volume-slider">
+                                                        <div class="volume-percentage"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <a href="#" class="link-btn">Listen Now</a>
+
+
+                                    <a style="margin-left: 100px; margin-top: -25px;" href="https://www.youtube.com/watch?v=w7j_K_hE5kU"
+                                class="icon-btn d-center gap-3 popupvideo mfp-iframe">
+                               
+                                <span class="text fw-semibold">
+                                    Watch Video
+                                </span>
+                            </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="featured-show-card d-flex flex-column flex-sm-row gap-lg-3 p-3 rounded">
+                            <div class="img-area mx-auto">
+                                <img class="w-100 h-100 rounded" src="assets/img/shows-1.png" alt="">
+                            </div>
+                            <div class="content-area p-3">
+                                <div class="d-between flex-wrap gap-2 mb-lg-5 mb-3">
+                                    <span class="tag-btn">
+                                        Episode 09
+                                    </span>
+                                    <a href="host-details.html" class="episode-host d-flex align-items-center gap-2">
+                                        <span class="tcp-1 fs-lg">
+                                            <i class="ti ti-microphone"></i>
+                                        </span>
+                                        <span class="fs-lg fw-medium link-text tcn-20">
+                                            Mr Jones Weks
+                                        </span>
+                                    </a>
+                                </div>
+                                <h3 class="card-title mb-6 fw-semibold">
+                                    Tech Trends Unveiled: Future Horizons
+                                </h3>
+                                <div class="play-podcast-area mb-lg-8 mb-4">
+                                    <div class="audio-player">
+                                        <!-- player controls btn  -->
+                                        <div class="play-audio">
+                                            <div class="toggle-play play fs-xl tcn-900">
+                                                <i class="ti ti-player-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="controls">
+                                            <!-- timeline  -->
+                                            <div class="timeline mb-2">
+                                                <div class="progress"></div>
+                                            </div>
+                                            <!-- time and volume  -->
+                                            <div class="time-and-volume">
+                                                <!-- time  -->
+                                                <div class="time">
+                                                    <div class="current fs-sm">0:00</div>
+                                                    <div class="length fs-sm"></div>
+                                                </div>
+                                                <!-- volume -->
+                                                <div class="volume-container">
+                                                    <div class="volume-button">
+                                                        <i class="ti ti-volume"></i>
+                                                    </div>
+                                                    <div class="volume-slider">
+                                                        <div class="volume-percentage"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <a href="#" class="link-btn">Listen Now</a>
+
+
+                                    <a style="margin-left: 100px; margin-top: -25px;" href="https://www.youtube.com/watch?v=w7j_K_hE5kU"
+                                class="icon-btn d-center gap-3 popupvideo mfp-iframe">
+                               
+                                <span class="text fw-semibold">
+                                    Watch Video
+                                </span>
+                            </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="featured-show-card d-flex flex-column flex-sm-row gap-lg-3 p-3 rounded">
+                            <div class="img-area mx-auto">
+                                <img class="w-100 h-100 rounded" src="assets/img/shows-3.png" alt="img">
+                            </div>
+                            <div class="content-area p-3">
+                                <div class="d-between flex-wrap gap-2 mb-lg-5 mb-3">
+                                    <span class="tag-btn">
+                                        Episode 09
+                                    </span>
+                                    <a href="host-details.html" class="episode-host d-flex align-items-center gap-2">
+                                        <span class="tcp-1 fs-lg">
+                                            <i class="ti ti-microphone"></i>
+                                        </span>
+                                        <span class="fs-lg fw-medium link-text tcn-20">
+                                            Mr Jones Weks
+                                        </span>
+                                    </a>
+                                </div>
+                                <h3 class="card-title mb-6 fw-semibold">
+                                    Stories Resonate: The Art of Storytelling
+                                </h3>
+                                <div class="play-podcast-area mb-lg-8 mb-4">
+                                    <div class="audio-player">
+                                        <!-- player controls btn  -->
+                                        <div class="play-audio">
+                                            <div class="toggle-play play fs-xl tcn-900">
+                                                <i class="ti ti-player-play"></i>
+                                            </div>
+                                        </div>
+                                        <div class="controls">
+                                            <!-- timeline  -->
+                                            <div class="timeline mb-2">
+                                                <div class="progress"></div>
+                                            </div>
+                                            <!-- time and volume  -->
+                                            <div class="time-and-volume">
+                                                <!-- time  -->
+                                                <div class="time">
+                                                    <div class="current fs-sm">0:00</div>
+                                                    <div class="length fs-sm"></div>
+                                                </div>
+                                                <!-- volume -->
+                                                <div class="volume-container">
+                                                    <div class="volume-button">
+                                                        <i class="ti ti-volume"></i>
+                                                    </div>
+                                                    <div class="volume-slider">
+                                                        <div class="volume-percentage"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <a href="#" class="link-btn">Listen Now</a>
+
+
+                                    <a style="margin-left: 100px; margin-top: -25px;" href="https://www.youtube.com/watch?v=w7j_K_hE5kU"
+                                class="icon-btn d-center gap-3 popupvideo mfp-iframe">
+                               
+                                <span class="text fw-semibold">
+                                    Watch Video
+                                </span>
+                            </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-lg-10 mt-8 text-center">
+                    <div class="top-listens-swiper-pagination d-none d-lg-block custom-swiper-pagination"></div>
+                    <div
+                        class="swiper-btns swiper-bottom-btn d-flex align-items-center justify-content-center d-lg-none gap-4">
+                        <div class="top-listens-prev button-prev fs-lg">
+                            <i class="ti ti-chevron-left"></i>
+                        </div>
+                        <div class="top-listens-next button-next fs-lg">
+                            <i class="ti ti-chevron-right"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top Listens Now section end -->
+
+    <!-- why choose us section start  -->
+    <section class="why-choose-us pt-120 pb-120 texture-bg">
+        <div class="sun-shape sun-shape-4 d-none d-md-block">
+            <img src="assets/img/sun.png" alt="sun">
+        </div>
+        <div class="sun-shape sun-shape-5 d-none d-md-block">
+            <img src="assets/img/sun.png" alt="sun">
+        </div>
+        <div class="container">
+            <div class="row align-items-center g-6">
+                <div class="col-lg-6 order-lg-first order-last" data-aos="fade-down">
+                    <div
+                        class="why-choose-banner d-flex gap-6 position-relative justify-content-sm-start justify-content-center mt-4 mt-lg-0">
+                        <div class="img-area pt-5 bt-1">
+                            <img class="w-100 rounded" src="assets/img/why-choose-1.png" alt="banner">
+                        </div>
+                        <div class="img-area">
+                            <img class="w-100 rounded" src="assets/img/why-choose-2.png" alt="banner">
+                        </div>
+                        <div class="offline-play position-absolute end-0 bottom-0 mb-sm-10 me-sm-10">
+                            <img class="w-100 rounded-4" src="assets/img/offline-play.png" alt="offline play">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="why-choose-content text-center text-lg-start">
+                        <span class="subheading-border fw-semibold mb-4 fs-xl">
+                            <span class="fs-2xl">
+                                <i class="ti ti-rocket"></i>
+                            </span>
+                            Why Choose Us
+                        </span>
+                        <h4 class="display-four fw-bold mb-6 pe-xxl-2">
+                            What Makes Us Different From Other
+                        </h4>
+                        <p>
+                            Explore vibrant soundscapes where stories of every kind come alive, taking you on an
+                            immersive
+                            journey and through captivating narratives.
+                        </p>
+                        <div class="our-feature-list mt-lg-10 mt-sm-8 mt-6">
+                            <ul class="d-between flex-wrap gap-lg-4 gap-2 fs-xl fw-medium fill-check-box">
+                                <li>More Collection Podcast</li>
+                                <li>Listen To Podcast On Offline</li>
+                                <li>Create Your Channel</li>
+                                <li>Listen In Screen Off Position</li>
+                            </ul>
+                        </div>
+                        <span class="d-block border-dashed mt-lg-8 mt-4 mb-lg-10 mb-sm-8 mb-6"></span>
+                        <div
+                            class="why-choose-btns d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start gap-6">
+                            <a href="pricing-plan.html" class="bttn-1">
+                                Get Started Free
+                                <span class=" icon d-center icon-right">
+                                    <i class="ti ti-arrow-narrow-right"></i>
+                                </span>
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=w7j_K_hE5kU"
+                                class="icon-btn d-center gap-3 popupvideo mfp-iframe">
+                                <span class="icon fs-xl fw-bold">
+                                    <i class="ti ti-player-play"></i>
+                                </span>
+                                <span class="text fw-semibold">
+                                    See About us
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- why choose us section end  -->
+
+    <!-- recent episode section start  -->
+    <section class="recent-episodes-section pt-120 pb-120 texture-bg-2">
+        <div class="container">
+            <div class="row g-6 justify-content-between mb-lg-15 mb-sm-10 mb-8" data-aos="flip-right">
+                <div class="col-lg-6">
+                    <div class="text-center text-lg-start">
+                        <span class="subheading-border fw-semibold mb-4 fs-xl">
+                            <span class="fs-2xl">
+                                <i class="ti ti-rocket"></i>
+                            </span>
+                            Recent Episode
+                        </span>
+                        <h4 class="display-four fw-bold">Explore Our Latest Talks</h4>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="ps-xxl-10 text-center text-lg-start">
+                        <p class="mb-lg-10 mb-sm-6 mb-4">
+                            Dive into the most recent episodes that just hit the airwaves. Discover what's trending in
+                            our podcast world.
+                        </p>
+                        <a href="latest-episodes.html" class="bttn-1 bttn-outline alt-position">
+                            View All Episode
+                            <span class=" icon d-center icon-right">
+                                <i class="ti ti-arrow-narrow-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- recent episodes area  -->
+            <div class="row recent-episodes g-6">
+                <div class="col-12" data-aos="fade-down">
+                    <div class="episode-card big-card d-flex flex-column flex-lg-row rounded-4">
+                        <div class="card-banner ms-xxl-10 d-none d-sm-block">
+                            <img class="w-100" src="assets/img/episode-card-banner.png" alt="image">
+                        </div>
+                        <div class="card-content p-xxl-10 p-6">
+                            <div class="card-top d-between gap-xxl-6 gap-4 mb-6">
+                                <div class="d-flex align-items-center gap-4 flex-wrap flex-sm-nowrap">
+                                    <a href="host-details.html" class="episode-host d-flex align-items-center gap-2">
+                                        <span class="tcn-900 fs-xl">
+                                            <i class="ti ti-microphone"></i>
+                                        </span>
+                                        <span class="fs-lg fw-medium text-nowrap link-text-2">
+                                            Arlene McCoy
+                                        </span>
+                                    </a>
+                                    <div class="episode-time d-flex align-items-center gap-2">
+                                        <span class="tcn-900 fs-xl">
+                                            <i class="ti ti-clock"></i>
+                                        </span>
+                                        <span class="fs-lg fw-medium text-nowrap">
+                                            4hr 12min
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="record-img d-none d-sm-block">
+                                    <div class="record-img-animation d-flex height-46">
+                                        <img class="w-100" src="assets/img/record-2.png" alt="image">
+                                        <img class="w-100" src="assets/img/record-2.png" alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="card-title fw-semibold mb-4">
+                                <a href="episodes-details.html" class="link-text-2 char-limit fw-semibold"
+                                    data-maxlength="60">
+                                    Innovation Insights: Diving Deep into Future Tech Trends
+                                </a>
+                            </h3>
+                            <p class="fs-sm">
+                                Ever wondered what happens behind the scenes? Join us for a candid conversation about
+                                podcasting and more
+                            </p>
+                            <div class="card-btns d-between flex-wrap flex-sm-nowrap gap-6 mt-8">
+                                <a href="" class="icon-btn d-center gap-3">
+                                    <span class="icon fs-xl fw-bold">
+                                        <i class="ti ti-player-play"></i>
+                                    </span>
+                                    <span class="text fw-semibold">
+                                        Listen Now
+                                    </span>
+                                </a>
+
+                                <span class="tag-btn">
+                                    Episode 07
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="episode-card small-card p-xxl-10 p-6 bgc-2 rounded">
+                        <div class="card-top d-between gap-xxl-6 gap-4 mb-6">
+                            <div class="d-flex align-items-center gap-4 flex-wrap flex-sm-nowrap">
+                                <a href="host-details.html" class="episode-host d-flex align-items-center gap-2">
+                                    <span class="tcp-1 fs-xl">
+                                        <i class="ti ti-microphone"></i>
+                                    </span>
+                                    <span class="fs-lg fw-medium text-nowrap link-text">
+                                        Kathryn Murphy
+                                    </span>
+                                </a>
+                                <div class="episode-time d-flex align-items-center gap-2">
+                                    <span class="tcp-1 fs-xl">
+                                        <i class="ti ti-clock"></i>
+                                    </span>
+                                    <span class="fs-lg fw-medium text-nowrap">
+                                        4hr 12min
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="record-img d-none d-sm-block">
+                                <div class="record-img-animation d-flex height-46">
+                                    <img class="w-100" src="assets/img/record.png" alt="image">
+                                    <img class="w-100" src="assets/img/record.png" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="card-title fw-semibold mb-4">
+                            <a href="episodes-details.html" class="link-text char-limit" data-maxlength="60">
+                                Laughter Unleashed: Join Us for Joyful Conversations Today
+                            </a>
+                        </h3>
+                        <p class="fs-sm">
+                            Embark on a journey of unexplored wisdom as we delve into fascinating topics that challenge
+                            the mind
+                        </p>
+                        <div class="card-btns d-between flex-wrap flex-sm-nowrap gap-6 mt-8">
+                            <a href="" class="icon-btn d-center gap-3">
+                                <span class="icon fs-xl fw-bold">
+                                    <i class="ti ti-player-play"></i>
+                                </span>
+                                <span class="text fw-semibold">
+                                    Listen Now
+                                </span>
+                            </a>
+                            <span class="tag-btn">
+                                Episode 04
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="episode-card small-card p-xxl-10 p-6 bgc-2 rounded">
+                        <div class="card-top d-between gap-xxl-6 gap-4 mb-6">
+                            <div class="d-flex align-items-center gap-4 flex-wrap flex-sm-nowrap">
+                                <a href="host-details.html" class="episode-host d-flex align-items-center gap-2">
+                                    <span class="tcp-1 fs-xl">
+                                        <i class="ti ti-microphone"></i>
+                                    </span>
+                                    <span class="fs-lg fw-medium text-nowrap link-text">
+                                        Devon Lane
+                                    </span>
+                                </a>
+                                <div class="episode-time d-flex align-items-center gap-2">
+                                    <span class="tcp-1 fs-xl">
+                                        <i class="ti ti-clock"></i>
+                                    </span>
+                                    <span class="fs-lg fw-medium text-nowrap">
+                                        4hr 12min
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="record-img d-none d-sm-block">
+                                <div class="record-img-animation d-flex height-46">
+                                    <img class="w-100" src="assets/img/record.png" alt="image">
+                                    <img class="w-100" src="assets/img/record.png" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="card-title fw-semibold mb-4">
+                            <a href="episodes-details.html" class="link-text char-limit" data-maxlength="60">
+                                Behind the Scenes: Candid Talks on Podcasting Strategies
+                            </a>
+                        </h3>
+                        <p class="fs-sm">
+                            Unlock the secrets of inspiration with heartfelt stories and motivational insights in this
+                            uplifting episode
+                        </p>
+                        <div class="card-btns d-between flex-wrap flex-sm-nowrap gap-6 mt-8">
+                            <a href="" class="icon-btn d-center gap-3">
+                                <span class="icon fs-xl fw-bold">
+                                    <i class="ti ti-player-play"></i>
+                                </span>
+                                <span class="text fw-semibold">
+                                    Listen Now
+                                </span>
+                            </a>
+                            <span class="tag-btn">
+                                Episode 09
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- recent episode section end  -->
+
+    <!-- host profile section start  -->
+    <section class="host-profile-section texture-bg">
+        <div class="top-wave-shape mt-sm-0 mt-n1">
+            <img class="w-100" src="assets/img/top-wave-shape.png" alt="wave shape">
+        </div>
+        <div class="container pt-120 pb-120">
+            <div class="row align-items-center mb-lg-15 mb-sm-10 mb-8" data-aos="flip-left">
+                <div class="col-lg-8">
+                    <div class="text-center text-lg-start">
+                        <span class="subheading-border fw-semibold mb-4 fs-xl">
+                            <span class="fs-2xl">
+                                <i class="ti ti-rocket"></i>
+                            </span>
+                            Host Profiles
+                        </span>
+                        <h4 class="display-four fw-semibold">LAST HIT MUSIC</h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-none d-lg-block">
+                    <div class="swiper-btns swiper-top-btn d-flex align-items-center justify-content-end gap-4">
+                        <div class="host-swiper-prev button-prev fs-lg">
+                            <i class="ti ti-chevron-left"></i>
+                        </div>
+                        <div class="host-swiper-next button-next fs-lg">
+                            <i class="ti ti-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- host profile card -->
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="swiper host-swiper">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="host-card">
+                                    <div class="host-profile position-relative pb-5">
+                                        <div class="img-area overflow-hidden">
+                                            <img class="w-100 rounded" src="assets/img/host-profile.png" alt="profile">
+                                        </div>
+                                        <div
+                                            class="host-social-link d-flex justify-content-end align-items-end v-line mx-5">
+                                            <div class="social-link">
+                                                <ul class="social-link-items">
+                                                    <li><a href="#" class="social-link-item"><i
+                                                                class="ti ti-brand-dribbble"></i></a></li>
+                                                    <li><a href="#" class="social-link-item"><i
+                                                                class="ti ti-brand-facebook"></i></a></li>
+                                                    <li><a href="#" class="social-link-item"><i
+                                                                class="ti ti-brand-twitter"></i></a>
+                                                    </li>
+                                                </ul>
+                                                <button class="link-expand-btn">
+                                                    <i class="ti ti-plus"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="host-info mt-5 ms-5">
+                                        <h4 class="fw-semibold mb-2"><a href="host-details.html"
+                                                class="link-text">Shafaq Noor</a></h4>
+                                        <span class="fs-sm">Singer</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="host-card">
+                                    <div class="host-profile position-relative pb-5">
+                                        <div class="img-area overflow-hidden">
+                                            <img class="w-100 rounded" src="assets/img/host-profile-2.png"
+                                                alt="profile">
+                                        </div>
+                                        <div
+                                            class="host-social-link d-flex justify-content-end align-items-end v-line mx-5">
+                                            <div class="social-link">
+                                                <ul class="social-link-items">
+                                                    <li><a href="#" class="social-link-item"><i
+                                                                class="ti ti-brand-dribbble"></i></a></li>
+                                                    <li><a href="#" class="social-link-item"><i
+                                                                class="ti ti-brand-facebook"></i></a></li>
+                                                    <li><a href="#" class="social-link-item"><i
+                                                                class="ti ti-brand-twitter"></i></a>
+                                                    </li>
+                                                </ul>
+                                                <button class="link-expand-btn">
+                                                    <i class="ti ti-plus"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="host-info mt-5 ms-5">
+                                        <h4 class="fw-semibold mb-2">
+                                            <a href="host-details.html" class="link-text">
+                                                Floyd Miles
+                                            </a>
+                                        </h4>
+                                        <span class="fs-sm">Marketing Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="host-card">
+                                    <div class="host-profile position-relative pb-5">
+                                        <div class="img-area overflow-hidden">
+                                            <img class="w-100 rounded" src="assets/img/host-profile-3.png"
+                                                alt="profile">
+                                        </div>
+                                        <div
+                                            class="host-social-link d-flex justify-content-end align-items-end v-line mx-5">
+                                            <div class="social-link">
+                                                <ul class="social-link-items">
+                                                    <li><a href="#" class="social-link-item"><i
+                                                                class="ti ti-brand-dribbble"></i></a></li>
+                                                    <li><a href="#" class="social-link-item"><i
+                                                                class="ti ti-brand-facebook"></i></a></li>
+                                                    <li><a href="#" class="social-link-item"><i
+                                                                class="ti ti-brand-twitter"></i></a>
+                                                    </li>
+                                                </ul>
+                                                <button class="link-expand-btn">
+                                                    <i class="ti ti-plus"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="host-info mt-5 ms-5">
+                                        <h4 class="fw-semibold mb-2">
+                                            <a href="host-details.html" class="link-text">
+                                                Wardah Shafi
+                                            </a>
+                                        </h4>
+                                        <span class="fs-sm">Expert Host</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="host-card">
+                                    <div class="host-profile position-relative pb-5">
+                                        <div class="img-area overflow-hidden">
+                                            <img class="w-100 rounded" src="assets/img/host-profile.png" alt="profile">
+                                        </div>
+                                        <div
+                                            class="host-social-link d-flex justify-content-end align-items-end v-line mx-5">
+                                            <div class="social-link">
+                                                <ul class="social-link-items">
+                                                    <li><a href="#" class="social-link-item"><i
+                                                                class="ti ti-brand-dribbble"></i></a></li>
+                                                    <li><a href="#" class="social-link-item"><i
+                                                                class="ti ti-brand-facebook"></i></a></li>
+                                                    <li><a href="#" class="social-link-item"><i
+                                                                class="ti ti-brand-twitter"></i></a>
+                                                    </li>
+                                                </ul>
+                                                <button class="link-expand-btn">
+                                                    <i class="ti ti-plus"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="host-info mt-5 ms-5">
+                                        <h4 class="fw-semibold mb-2">
+                                            <a href="host-details.html" class="link-text">
+                                                Courtney Henry
+                                            </a>
+                                        </h4>
+                                        <span class="fs-sm">Standup comedian</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-lg-10 mt-sm-8 mt-6 text-center">
+                            <div class="host-swiper-swiper-pagination d-none d-lg-block custom-swiper-pagination"></div>
+
+                            <div
+                                class="swiper-btns swiper-bottom-btn d-flex d-lg-none align-items-center justify-content-center gap-4">
+                                <div class="host-swiper-prev button-prev fs-lg">
+                                    <i class="ti ti-chevron-left"></i>
+                                </div>
+                                <div class="host-swiper-next button-next fs-lg">
+                                    <i class="ti ti-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-wave-shape">
+            <img class="w-100" src="assets/img/bottom-wave-shape.png" alt="wave shape">
+        </div>
+    </section>
+    <!-- host profile section end  -->
+
+  
+
+    <!-- news letter section start  -->
+    <section class="news-letter-section texture-bg-2 pb-120" id="newsletter" data-aos="fade-up">
+        <div class="container news-letter-wrapper rounded-4">
+            <div class="row justify-content-between">
+                <div class="col-xxl-6 col-xl-7 col-lg-8 pt-sm-20 pt-10 pb-lg-20 pb-sm-10 pb-6">
+                    <div class="news-letter-content text-center text-lg-start pt-xxl-10 pb-xxl-10">
+                        <h4 class="display-four fw-bold tcn-700 mb-lg-10 mb-sm-6 mb-4">
+                            Get the Latest Episode & Never Miss an Episode
+                        </h4>
+                        <form action="#">
+                            <div class="input-area alt">
+                                <input type="email" placeholder="Enter email">
+                                <button type="submit" class="bttn-1 subscrib-btn">
+                                    <span class="text fw-semibold">Subscribe</span>
+                                    <span class=" icon d-center icon-right">
+                                        <i class="ti ti-arrow-narrow-right"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-4">
+                    <div class="news-letter-banner-wrapper">
+                        <div class="record-img top-img">
+                            <div class="record-img-animation d-flex">
+                                <img class="w-100" src="assets/img/record-3.png" alt="record">
+                                <img class="w-100" src="assets/img/record-3.png" alt="record">
+                            </div>
+                        </div>
+                        <div class="news-letter-banner">
+                            <img class="w-100" src="assets/img/record-mic.png" alt="microphone">
+                        </div>
+                        <div class="record-img bottom-img">
+                            <div class="record-img-animation d-flex">
+                                <img class="w-100" src="assets/img/record-3.png" alt="record">
+                                <img class="w-100" src="assets/img/record-3.png" alt="record">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- news letter section end  -->
+
+    <!-- footer section start  -->
+    <footer class="footer-section texture-bg-2">
+        <div class="container">
+            <!-- footer top  -->
+            <div class="footer-top d-between gap-lg-6 gap-4 flex-wrap flex-lg-nowrap" data-aos="fade-down">
+                <div class="footer-logo">
+                    <a href="index.html" class="logo">
+                        <img src="assets/img/top_logo_bodkas_fond_noir-removebg-preview.png" alt="" style="height: 120px; width: 200px;">
+                    </a>
+                </div>
+                <div class="record-slide-wrapper d-none d-lg-block">
+                    <div class="record-img-animation d-flex align-items-center">
+                        <img class="w-100" src="assets/img/record-4.png" alt="record">
+                        <img class="w-100" src="assets/img/record-4.png" alt="record">
+                        <img class="w-100" src="assets/img/record-4.png" alt="record">
+                    </div>
+                </div>
+                <div
+                    class="footer-podcast-icons d-flex align-items-center gap-xl-6 flex-sm-nowrap flex-wrap gap-sm-4 gap-2">
+                    <p class="fs-lg fw-medium text-nowrap">Subscribe on :</p>
+                    <ul class="d-flex align-items-center gap-xl-4 gap-2">
+                        <li class="brand-icon"><a href="#">
+                                <img class="w-100" src="assets/img/podcast-icon-1.png" alt="brand icon">
+                            </a></li>
+                        <li class="brand-icon"><a href="#">
+                                <img class="w-100" src="assets/img/podcast-icon-2.png" alt="brand icon">
+                            </a></li>
+                        <li class="brand-icon"><a href="#">
+                                <img class="w-100" src="assets/img/podcast-icon-3.png" alt="brand icon">
+                            </a></li>
+                        <li class="brand-icon"><a href="#">
+                                <img class="w-100" src="assets/img/podcast-icon-4.png" alt="brand icon">
+                            </a></li>
+                        <li class="brand-icon"><a href="#">
+                                <img class="w-100" src="assets/img/podcast-icon-5.png" alt="brand icon">
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- footer menu -->
+            <div class="row g-6 justify-content-between mt-lg-15 mt-sm-10 mt-6 pt-lg-15 pt-sm-10 pt-6 bt-2"
+                data-aos="fade-up">
+                <div class="col-lg-3 footer-right-border">
+                    <div class="footer-widget">
+                        <h4 class="widget-title mb-lg-6 mb-4 fw-semibold">Pages</h4>
+                        <ul class="footer-menu d-grid gap-3">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="latest-episodes.html">Episode</a></li>
+                            <li><a href="pricing-plan.html">Pricing Plan</a></li>
+                            <li><a href="blog-grid.html">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 footer-right-border">
+                    <div class="footer-widget">
+                        <h4 class="widget-title mb-lg-6 mb-4 fw-semibold">Contact</h4>
+                        <ul class="footer-menu d-grid gap-3">
+                            <li>
+                                <a href="tel:+880123456789" class="d-flex align-items-center gap-3 alt">
+                                    <span class="tcp-1 fs-xl">
+                                        <i class="ti ti-phone"></i>
+                                    </span>
+                                    +880 123 456 789</a>
+                            </li>
+                            <li>
+                                <a href="tel:603555-0123" class="d-flex align-items-center gap-3 alt">
+                                    <span class="tcp-1 fs-xl">
+                                        <i class="ti ti-phone"></i>
+                                    </span>
+                                    (603) 555-0123</a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@example@gmail.com" class="d-flex align-items-center gap-3 alt">
+                                    <span class="tcp-1 fs-xl"><i class="ti ti-mail-opened"></i></span>
+                                    info@example@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-widget">
+                        <h4 class="widget-title mb-lg-6 mb-4 fw-semibold">Address</h4>
+                        <ul class="footer-menu d-grid gap-3">
+                            <li>
+                                <span class="d-flex align-items-center gap-3 alt">
+                                    <span class="tcp-1 fs-xl"><i class="ti ti-map-pin"></i></span>
+                                    2715 Ash Dr. San Jose,South Dakota
+                                </span>
+                            </li>
+                            <li>
+                                <span class="d-flex align-items-center gap-3 alt">
+                                    <span class="tcp-1 fs-xl"><i class="ti ti-map-pin"></i></span>1901 Thornridge
+                                    Cir. Shiloh, Hawaii 81063</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer bottom  -->
+            <div
+                class="footer-bottom d-between flex-wrap-reverse gap-2 mt-lg-15 mt-sm-10 mt-6 py-lg-8 py-sm-6 py-4 bt-2">
+                <span>
+                    Copyright © <span class="currentYear"></span> <a href="#" class="tcp-1 link-text-2">Netwebstudio</a>
+                    All
+                    Rights Reserved.
+                </span>
+                <div class="footer-widget">
+                    <ul class="footer-menu d-flex gap-lg-6 gap-sm-4 gap-2">
+                        <li><a href="$">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end  -->
+
+    <!-- jquery  -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- swiper js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- audio player  -->
+    <script src="assets/js/audio-player.js"></script>
+    <!-- magnific-popup  -->
+    <script src="assets/js/magnific-popup.js_1.1.0.min.js"></script>
+    <!-- viewport js -->
+    <script src="assets/js/viewport.js"></script>
+    <!-- odometer js  -->
+    <script src="assets/js/odometer.js_0.4.7.min.js"></script>
+    <!-- aos  -->
+    <script src="assets/js/aos@2.3.1-dist-aos.js"></script>
+    <!-- select 2 -->
+    <script src="assets/js/select2.min.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+.audio-player {
+    width: 100%;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    .toggle-play {
+        &.play {
+            cursor: pointer;
+            position: relative;
+            transition: var(--transition);
+        }
+    }
+
+    .timeline {
+        background: white;
+        width: 100%;
+        height: 5px;
+        position: relative;
+        cursor: pointer;
+        border-radius: 16px;
+        
+        .progress {
+            background: coral;
+            width: 0%;
+            height: 100%;
+            transition: 0.25s;
+            border-radius: inherit;
+        }
+    }
+
+    .controls {
+        width: 100%;
+    }
+
+    .time-and-volume {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .time {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .volume-container {
+        cursor: pointer;
+        position: relative;
+        z-index: 2;
+
+        .volume-slider {
+            position: absolute;
+            left: 5px;
+            bottom: 25px;
+            z-index: -1;
+            width: 5px;
+            height: 100px;
+            height: 0;
+            background: white;
+            transition: .25s;
+            border-radius: 6px;
+            transform: rotate(180deg);
+
+            .volume-percentage {
+                background: coral;
+                height: 75%;
+                width: 100%;
+                border-radius: inherit;
+            }
+        }
+
+        .active {
+            height: 100px;
+        }
+    }
+}
